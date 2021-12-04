@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WELCOME</title>
+  
+</head>
+<body>
+ <h1>Online Grocery Store</h1> 
+ 
+ <div class="pos-f-t">
+  <div class="collapse" id="navbarToggleExternalContent">
+    <div class="bg-dark p-4">
+
+      <nav class="navbar navbar-expand-sm bg-success navbar-dark ">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">
+          <img src="./assets/8c3d1a5dbd8fd62d74892174c147707b.jpg" alt="Logo" style="width: 100px;"><br>
+          <span class="text-muted">Eat Right Be Bright.</span>
+        </a>
+        
+        <!-- Links -->
+        <ul class="navbar-nav">
+          
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/home">Home</a>
+          </li>
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images.png" alt="Logo" style="width:45px;">
+          </a>
+          
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/fruits">Fruits</a>
+          </li>
+          <a class="navbar-brand" href="#">
+            <img src="./assets/stock-vector-fresh-fruits-logo-design-vector-1022653195.jpg" alt="Logo" style="width:45px;">
+          </a>
+          
+          <!-- Dropdown -->
+          <li class="nav-item">
+            <a class="nav-link" routerLink="/vegetables">vegetables</a>
+            
+            
+          </li>
+          <a class="navbar-brand" href="#">
+            <img src="./assets/Fresh-vegetables-logo-design-vector-03.jpg" alt="Logo" style="width: 45px">
+          </a>
+
+          
+          <li class="nav-item">
+            <a class="nav-link" href="#">viewcart</a>
+        </li>
+        <a class="navbar-brand" href="#">
+          <img src="./assets/000749-online-store-logos-design-free-online-E-commerce-cart-logo-maker-04.png" alt="Logo" style="width:45px;">
+        </a>
+        
+        
+        
+        
+         <!-- <div id="r"> -->
+           <div id="y">
+         <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        </div>
+          <!-- <button class="btn btn-success" type="submit">Search</button> -->
+        <!-- </div> -->
+          <div id="x">
+        <li class="nav-item">
+          <button type="button" class="btn btn-primary btn-lg">Logout</button>
+      </li>
+    </div>
+        </ul>
+
+        <!-- <form class="form-inline" action="/action_page.php"> -->
+          
+        <!-- </form> -->
+      </nav>
+      <!-- <h4 class="text-white">Collapsed content</h4> -->
+       
+    </div>
+  </div>
+
+
+    
+  
+  <nav class="navbar navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      
+    </button>
+    <marquee><h2>WELCOME TO STORE</h2></marquee>
+    <div id="z">
+    <!-- <li class="nav-item"> -->
+      <button class="btn btn-primary btn-lg" (click)="changestatus()" routerLink="/signup">{{status?"signup":"signup"}}</button> 
+    </div>
+   <div>
+      <button type="button" class="btn btn-primary btn-lg" routerLink="/signin">signin</button>
+  
+    </div>
+
+    
+  </nav>
+</div>
+
+</body>
+
+<router-outlet></router-outlet>
+
+  <footer>  
+   <img src="./assets/clarity.png" style="width:100%;height:200px">  
+   </footer>  
+  
+
+</html>

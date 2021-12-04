@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    background-color:palevioletred;
+    color: rgb(143, 21, 143);
+    font-family: fantasy;
+}
+body{ 
+    background-image: url(../assets/istockphoto-1280856062-170667a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    height: 100vh;
+    font-family: cursive;
+    
+    font-size: larger;
+    }
+
+    h2{
+        text-align: center;
+        margin-right: 600px;
+        color: cornsilk;
+    }
+
+    /* #r{ */
+        /* margin-left: 200px; */
+    /* } */
+
+    #z{ 
+        margin-left: 1100px; 
+    } 
+
+    /* #u{ 
+        margin-left: 1250px;
+     } */
+
+    #x{
+        margin-left: 50px;
+
+    }
+    #y{
+        margin-left: 45px;
+        width: 300px;
+    }
+
+    .nav-item{
+        color: whitesmoke;
+    }
+
+    .text-muted{
+        color: whitesmoke;
+    }
+
+    /*footer{ 
+        height: 20px;
+        width: 900px;
+        
+     } */
+
+
+   
+   

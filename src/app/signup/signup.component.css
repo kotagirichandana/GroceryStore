@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+    color: purple;
+    background-color: cornsilk;
+}
+
+body{
+    background-color: gainsboro;
+    border-color:black;
+    font-size: medium;
+}
+.clearfix signup{
+    margin-left: 50%;
+
+}
